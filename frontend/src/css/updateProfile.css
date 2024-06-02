@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.update-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #df4adf, #520852);
+}
+.title {
+    font-size: 35px;
+    color: #df4adf;
+    margin-bottom: 2rem;
+}
+.pass-update-form{
+    /* border: 1px solid black; */
+    border-radius: 2rem;
+    width: 40%;
+    height: 60%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.input-field {
+    width: 25rem;
+    height: 50px;
+    background: #f0f0f0;
+    margin: 10px 0;
+    border: 2px solid #df4adf;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.input-field i {
+    flex: 1;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+span i{
+   margin-right: 0.5rem; 
+}
+.input-field input {
+    flex: 8;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+.btn input{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5rem;
+    background: #df4adf;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn input:hover {
+    background: #c03cc0;
+}
+.msg{
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}

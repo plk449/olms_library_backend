@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <div class="img">
+        <!-- <header>
+            <input type="text" placeholder="search book...">
+            <button>search</button>
+        </header> -->
+        <nav id="nav-bar">
+            <div class="logo" id="index.html">
+                <h2>RP Library</h2>
+            </div>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+            </ul>
+            <!-- <div class="user-logo" >
+                <i class="fa-solid fa-user"></i>
+            </div> -->
+        </nav>
+
+        <section id="home">
+            <div class="user-info active">
+                <div class="side-header">
+                    <div class="cross">
+                        <i class="fa-solid fa-xmark" onclick="hideDisplay()"></i>
+                    </div>
+                    <div class="side-user">
+                        <i class="fa-solid fa-user"></i>
+                        <h4>Raja Roy</h4>
+                    </div>
+                </div>
+
+                <div class="user-details">
+                    <ul class="main-ul">
+                        <li class="main-li" id="clicked"><i class="fa-solid fa-list"><span>Books Catagory</span></i>
+                            <i class="fa-solid fa-caret-down" id="carret"></i>
+                            <ul class="sub-ul hide" id="hide1">
+                                <li class="sub-li"><i class="fa-solid fa-divide"><span>Math</span></i></li>
+                                <li class="sub-li"><i class="fa-solid fa-book-atlas"><span>Geography</span></i></li>
+                                <li class="sub-li"><i class="fa-solid fa-flask"><span>Science</span></i></li>
+                            </ul>
+                        </li>
+                        <li class="main-li"><i class="fa-solid fa-heart"><span>Wish List</span></i></li>
+                        <li class="main-li"><i class="fa-solid fa-user"><span>Update Profile</span></i></li>
+                        <li class="main-li" id="clicked2"><i class="fa-solid fa-gear"><span>Settings</span></i>
+                            <i class="fa-solid fa-caret-down" id="carret"></i>
+                            <ul class="sub-ul hide" id="hide2">
+                                <li class="sub-li"><i class="fa-solid fa-key"><span>Change Password</span></i></li>
+                                <li class="sub-li"><i class="fa-solid fa-trash"><span>Delete Account</span></i></li>
+                            </ul>
+                        </li>
+                        <li class="main-li"><i class="fa-solid fa-comment"><span>Feedback</span></i></li>
+                        <li class="main-li"><i class="fa-solid fa-right-from-bracket"><span>Logout</span></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="form">
+                      <div class="contact-info">
+                        <h3 class="title">Let's get in touch</h3>
+                        <p class="text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                          dolorum adipisci recusandae praesentium dicta!
+                        </p>
+              
+                        <div class="info">
+                          <div class="information">
+                            <i class="fa-solid fa-house"></i>
+                            <p>Ambari Falakata, WB 735135</p>
+                          </div>
+                          <div class="information">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>test@gmail.com</p>
+                          </div>
+                          <div class="information">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>123-456-789</p>
+                          </div>
+                        </div>
+              
+                        <div class="social-media">
+                          <p>Connect with us :</p>
+                          <div class="social-icons">
+                            <a href="#">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="contact-form">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+              
+                        <form action="index.html" autocomplete="off">
+                          <h3 class="title">Contact us</h3>
+                          <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                          </div>
+                          <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                          </div>
+                          <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                          </div>
+                          <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                          </div>
+                          <input type="submit" value="Send" class="btn" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        </section>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <div class="about-us">
+                <p>Welcome to our Library Management System. We provide a vast collection of books for your reading
+                    pleasure and academic needs.</p>
+            </div>
+        </div>
+        <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <div class="contact1">
+                <p><ion-icon name="location-outline"></ion-icon> Ambari Falakata, Jalpaiguri, WB 735135</p>
+                <p><ion-icon name="call-outline"></ion-icon> +91 2200330055</p>
+                <p><ion-icon name="mail-outline"></ion-icon> info@library.com</p>
+            </div>
+        </div>
+        <div class="footer-section social">
+            <h2>Follow Us</h2>
+            <div class="follow-us">
+                <ul>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Library Management. All rights reserved.</p>
+    </div>
+    </footer>
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/contact.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+

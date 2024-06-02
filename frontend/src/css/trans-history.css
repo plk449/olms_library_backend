@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+#transection-history{
+    width: 100%;
+    min-height: 729px;
+    background: linear-gradient(-45deg, #df4adf, #520852);
+    padding: 2rem 6rem;
+}
+.text h3{
+    font-size: 2rem;
+    color: white;
+    font-weight: 650;
+}
+.container{
+    /* border: 1px solid white; */
+    border-radius: 0.5rem;
+    min-height: 600px;
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(136, 137, 134, 0.6);
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    /* background: red; */
+}
+.text{
+    margin-bottom: 1.5rem;
+}
+.cart{
+    width: 70%;
+    /* padding: 2rem; */
+    height: 12rem;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+    /* border: 1px solid white; */
+    display: flex;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    position: relative;
+    z-index: 999999;
+}
+.book-image{
+    height: 100%;
+    width: 10rem;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+.book-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.book-info{
+    /* border: 1px solid white; */
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 0.7rem;
+    /* padding: 1.5rem; */
+}
+.book-info h3, p{
+    color: rgb(67, 62, 62);
+}
+.book-info h3{
+    font-size: 1.5rem;
+    font-weight: 650;
+    color: crimson;
+}
+.author{
+    margin-top: 0.1rem;
+}
+.author p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(24, 22, 22);
+}
+.date{
+    margin-top: 0.5rem;
+}
+#message p{
+    font-size: 1.7rem;
+    font-weight: 650;
+    color: black;
+}
+.return-btn{
+    margin-top: 0.5rem;
+    width: 4.5rem;
+    /* border: 2px solid white; */
+    height: 1.7rem;
+}
+.return-btn button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: rgb(123, 119, 119);
+    border-radius: 0.2rem;
+}
+.return-btn button:hover{
+    background: rgb(146, 143, 143);
+    transition: all 0.2s;
+}

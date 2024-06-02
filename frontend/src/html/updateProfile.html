@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update profile</title>
+    <link rel="stylesheet" href="../css/updateProfile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <div class="update-container">
+        <form action="" class="pass-update-form">
+            <h2 class="title">Update Profile</h2>
+            <div class="input-container">
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Full Name" id="fulName">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+
+                <div class="input-field">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="Phone No" id="phNo">
+                </div>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Update Profile" class="btn" id="updateBtn">
+            </div>
+
+            <!-- message here -->
+            <div class="msg">
+                <p id="message"></p>
+            </div>
+        </form>
+    </div>
+    <script src="../js/updateDetails.js"></script>
+</body>
+</html>

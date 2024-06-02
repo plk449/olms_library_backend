@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="img">
+        <header>
+            <div class="search-box1">
+                <input type="text" placeholder="Search here ..." id="searchValue">
+                <i class="fa-solid fa-magnifying-glass" id="searchButton"></i>
+            </div>
+
+        </header>
+        <nav id="nav-bar">
+            <div class="logo" id="index.html">
+                <h2>OLMS</h2>
+            </div>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+            </ul>
+
+
+            <div class="user-logo" id="userInfo">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+        </nav>
+
+        <section id="home">
+            <div class="user-info active">
+                <div class="side-header">
+                    <div class="cross">
+                        <i class="fa-solid fa-xmark" id="xmark"></i>
+                    </div>
+                    <div class="side-user">
+                        <!-- <i class="fa-solid fa-user"></i> -->
+
+                        <div class="userFace" id="">
+                            <img id="userFimg">
+                            <img src="download.png" id="userFimg2">
+                        </div>
+
+                        <h4 id="userName"></h4>
+                    </div>
+                </div>
+
+                <div class="user-details">
+                    <ul class="main-ul">
+                        <li class="main-li" id="clicked">
+                            <i class="fa-solid fa-user">
+                                <span>
+                                    <a href="my-profile.html">My Profile</a>
+                                </span>
+                            </i>
+                        </li>
+                        <li class="main-li"><i class="fa-solid fa-heart">
+                                <span id="wishList">
+                                    <a href="wishlist.html">Wish List</a>
+                                </span>
+                            </i>
+                        </li>
+                        <li class="main-li">
+                            <i class="fa-solid fa-user">
+                                <span>
+                                    <a href="updateProfile.html"> Update Profile</a>
+                                </span>
+                            </i>
+                        </li>
+                        <li class="main-li" id="clicked2">
+                            <i class="fa-solid fa-gear">
+                                <span>
+                                    Settings
+                                </span>
+                            </i>
+                            <i class="fa-solid fa-caret-down" id="carret"></i>
+                            <ul class="sub-ul hide" id="hide2">
+                                <li class="sub-li">
+                                    <i class="fa-solid fa-key">
+                                        <span>
+                                            <a href="updatePass.html">Change Password</a>
+                                        </span>
+                                    </i>
+                                </li>
+                                <li class="sub-li">
+                                    <i class="fa-solid fa-trash">
+                                        <span>
+                                            Delete Account
+                                        </span>
+                                    </i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-li">
+                            <i class="fa-solid fa-comment">
+                                <span>
+                                    Feedback
+                                </span>
+                            </i>
+                        </li>
+                        <li class="main-li">
+                            <i class="fa-solid fa-truck">
+                                <span id="orders">
+                                    <a href="trans-history.html">Orders</a>
+                                </span>
+                            </i>
+                        </li>
+                        <li class="main-li">
+                            <i class="fa-solid fa-right-from-bracket">
+                                <span id="logoutButton">
+                                    Logout
+                                </span>
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section id="home-section">
+                <div class="home-h1">
+                    <h1><span>Offline </span>Library Management System</h1>
+                </div>
+            </section>
+        </section>
+    </div>
+    <section id="book-cart">
+        <!-- <h2 id="books">Books</h2> -->
+        <div class="heading-and-catagory" id="book">
+            <div class="cart-h1">
+                <h1>Browse Our Collection</h1>
+            </div>
+            <div class="select-book">
+                <div class="input-box">
+                    <ion-icon name="book"></ion-icon>
+                    <input type="text" placeholder="Select Book Category" id="selected-category" readonly>
+                    <ion-icon name="caret-down" id="caret-down"></ion-icon>
+                </div>
+                <div class="options" id="options">
+                    <div class="common-div"><button data-category="Science Fiction" value="Science Fiction">Science Fiction</button></div>
+                    <div class="common-div"><button data-category="Biography" value="Biography">Biography</button></div>
+                    <div class="common-div"><button data-category="Computer Science" value="Computer Science">Computer Science</button></div>
+                    <div class="common-div"><button data-category="Poetry" value="Poetry">Poetry</button></div>
+                    <div class="common-div"><button data-category="Electrical Engineering" value="Electrical Engineering">Electrical Engineering</button></div>
+                    <div class="common-div"><button data-category="Mechanical Engineering" value="Mechanical Engineering">Mechanical Engineering</button></div>
+                    <div class="common-div"><button data-category="Law" value="Law">Law</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-home" id="cart-homes">
+            <!-- Book -->
+
+        </div>
+
+
+
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <div class="about-us">
+                    <p>Welcome to our Library Management System. We provide a vast collection of books for your reading
+                        pleasure and academic needs.</p>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <div class="contact1">
+                    <p><ion-icon name="location-outline"></ion-icon> Ambari Falakata, Jalpaiguri, WB 735135</p>
+                    <p><ion-icon name="call-outline"></ion-icon> +91 2200330055</p>
+                    <p><ion-icon name="mail-outline"></ion-icon> info@library.com</p>
+                </div>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="follow-us">
+                    <ul>
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Library Management. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
