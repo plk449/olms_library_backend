@@ -7,7 +7,10 @@ const app = express();
 // process.env.CORS_ORIGIN ||
 
 app.use(cors({
-    origin: "http://192.168.29.216:5500", // Allow this origin
+    // origin: "http://192.168.29.216:5500",
+    
+    // Allow this origin
+    origin:"https://olms-library.vercel.app/"
     methods: "GET,POST,PATCH,DELETE",
     credentials: true // Allow cookies and credentials
 }));
