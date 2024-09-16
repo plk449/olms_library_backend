@@ -7,10 +7,10 @@ const app = express();
 // process.env.CORS_ORIGIN ||
 
 app.use(cors({
-    // origin: "http://192.168.29.216:5500",
+    origin: "http://192.168.29.216:5500",
     
     // Allow this origin
-    origin:"https://library-frontend-smoky.vercel.app/
+    // origin:"https://library-frontend-smoky.vercel.app/",
     methods: "GET,POST,PATCH,DELETE",
     credentials: true // Allow cookies and credentials
 }));
